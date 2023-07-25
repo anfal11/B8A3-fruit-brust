@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
     <link rel="shortcut icon" href="./images/fruit7.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lato Google Font added -->
@@ -41,8 +42,41 @@
 </head>
 
 <body class="font-lato">
-    <header>
-        
+    <header class="container mx-auto">
+        <nav class="mt-12">
+            <div class="navbar bg-white lg:bg-[#F85559] rounded-full  px-14 py-4">
+                <div>
+                    <ul class="lg:flex gap-7 text-white text-lg font-medium hidden lg:visible">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex-1 justify-start lg:justify-center">
+                    <img src="./images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl text-black lg:text-white font-bold">Fruit Burst</a>
+                </div>
+                <div class="flex-none gap-2">
+                    <label class="relative hidden lg:block">
+                        <input
+                            class="w-full bg-white placeholder:font-italitc font-fourth font-normal text-base border-none rounded-full py-2 pl-3 pr-10 focus:outline-none"
+                            placeholder="Search here" type="text" />
+                        <span class="absolute inset-y-0 right-0 flex items-center pr-5">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </label>
+
+                    <div class="block lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
     </header>
 
     <main>
