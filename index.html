@@ -42,6 +42,7 @@
 </head>
 
 <body class="font-lato">
+
     <!-- Header Starts here -->
     <header class="container mx-auto px-5 lg:p-0">
 
@@ -186,59 +187,354 @@
     </header>
 
     <!-- Main starts here -->
-    <main class="container mx-auto px-5 lg:p-0">
+    <main class="container mx-auto">
+
         <!-- Deal of the day Section -->
-        <section class="flex flex-col lg:flex-row justify-between items-center mb-12">
+        <section class="flex flex-col lg:flex-row justify-between items-center mb-12  px-5 lg:p-0">
             <div>
                 <h1 class="text-center lg:text-start font-extrabold text-5xl text-primary mb-6">Deal of the day</h1>
-                <p class="text-normal text-center lg:text-start font-medium text-secondary">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br class="hidden lg:block">
-                     Latin literature from 45 BC, making it over 2000 years old.
+                <p class="text-normal text-center lg:text-start font-medium text-secondary">Contrary to popular belief,
+                    is not simply random text. It has roots in a piece of classical <br class="hidden lg:block">
+                    Latin literature from 45 BC, making it over 2000 years old.
                 </p>
             </div>
             <div>
                 <div class="grid grid-flow-col gap-5 text-center auto-cols-max mt-4">
                     <div class="flex flex-col">
-                      <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
-                        <span style="--value:15;" class="pr-4"></span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                      </span>
-                      <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
-                        Days
-                      </span>
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
-                        <span style="--value:10;" class="pr-4"></span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                      </span>
-                      <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
-                        Hours
-                      </span>
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
-                        <span style="--value:24;" class="pr-4"></span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                      </span>
-                      <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
-                        Minutes
-                      </span>
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
-                        <span style="--value:44;"></span>
-                      </span>
-                      <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
-                        Seconds
-                      </span>
+                        <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
+                            <span style="--value:15;" class="pr-4"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z"
+                                    stroke="#121212" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
+                            Days
+                        </span>
                     </div>
-                  </div>
+                    <div class="flex flex-col">
+                        <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
+                            <span style="--value:10;" class="pr-4"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z"
+                                    stroke="#121212" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
+                            Hours
+                        </span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
+                            <span style="--value:24;" class="pr-4"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z"
+                                    stroke="#121212" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
+                            Minutes
+                        </span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown text-xl lg:text-5xl font-extrabold text-primary">
+                            <span style="--value:44;"></span>
+                        </span>
+                        <span class="text-center text-xs lg:text-normal font-medium text-secondary pr-0 md:pr-8 mt-2">
+                            Seconds
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Card section started -->
+        <section class="px-4 md:px-6 lg:p-0">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                <div class="card w-80 bg-white rounded-lg border-2 border-[#1212121a]">
+                    <figure><img src="./images/fruit6.png" alt="Shoes" class="py-12" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-[#121212] font-bold text-2xl border-b-2 border-b-[#1212121a] pb-5">
+                            12.90$ - 18.85$</h2>
+                        <p class="text-center font-medium text-base text-second">Apples</p>
+                        <div class="rating rating-lg rating-half py-3">
+                            <input type="radio" name="rating-10-0" class="rating-hidden" />
+                            <input type="radio" name="rating-10-1" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-2" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-3" class="bg-third mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10-4" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-5" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-6" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-7" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-8" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-9" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-10" class="bg-third mask mask-star-2 mask-half-2" />
+                        </div>
+                        <label for="my_modal_6" class="text-third text-lg font-bold text-center pt-2">Details</label>
+                        <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+                        <div class="modal">
+                            <div class="modal-box">
+                                <div class="card w-full bg-white rounded-lg">
+                                    <figure><img src="./images/fruit6.png" alt="Shoes" class="py-12" /></figure>
+                                    <div class="card-body">
+                                        <h2 class="text-center text-[#121212] font-bold text-2xl pb-5">
+                                            Apples</h2>
+                                        <p class="text-center font-medium text-base text-second">Professional employees
+                                            are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating rating-lg rating-half py-3 justify-center">
+                                            <input type="radio" name="rating-10-11" class="rating-hidden" />
+                                            <input type="radio" name="rating-10-12"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-13"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-14"
+                                                class="bg-third mask mask-star-2 mask-half-1" checked />
+                                            <input type="radio" name="rating-10-15"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-16"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-17"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-18"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-19"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-20"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-21"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <label for="my_modal_6"
+                                        class="border-2 border-[#f85559] px-2 md:px-3 py-1 md:py-3 text-[#F85559] font-bold text-sm md:text-xl rounded-lg">Close!</label>
+                                    <label for="my_modal_6"
+                                        class="px-2 md:px-3 py-1 md:py-3 text-white bg-[#F85559] font-bold text-sm md:text-xl rounded-lg">Buy
+                                        Now</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-80 bg-white rounded-lg border-2 border-[#1212121a]">
+                    <figure><img src="./images/fruit7.png" alt="Shoes" class="py-12" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-[#121212] font-bold text-2xl border-b-2 border-b-[#1212121a] pb-5">
+                            12.90$ - 18.85$</h2>
+                        <p class="text-center font-medium text-base text-second">Orange</p>
+                        <div class="rating rating-lg rating-half py-3">
+                            <input type="radio" name="rating-10-22" class="rating-hidden" />
+                            <input type="radio" name="rating-10-23" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-24" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-25" class="bg-third mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10-26" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-27" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-28" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-29" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-30" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-31" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-32" class="bg-third mask mask-star-2 mask-half-2" />
+                        </div>
+                        <label for="my_modal_6" class="text-third text-lg font-bold text-center pt-2">Details</label>
+                        <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+                        <div class="modal">
+                            <div class="modal-box">
+                                <div class="card w-full bg-white rounded-lg">
+                                    <figure><img src="./images/fruit7.png" alt="Shoes" class="py-12" /></figure>
+                                    <div class="card-body">
+                                        <h2 class="text-center text-[#121212] font-bold text-2xl pb-5">
+                                            Orange</h2>
+                                        <p class="text-center font-medium text-base text-second">Professional employees
+                                            are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating rating-lg rating-half py-3 justify-center">
+                                            <input type="radio" name="rating-10-33" class="rating-hidden" />
+                                            <input type="radio" name="rating-10-34"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-35"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-36"
+                                                class="bg-third mask mask-star-2 mask-half-1" checked />
+                                            <input type="radio" name="rating-10-37"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-38"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-39"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-40"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-41"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-42"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-43"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <label for="my_modal_6"
+                                        class="border-2 border-[#f85559] px-2 md:px-3 py-1 md:py-3 text-[#F85559] font-bold text-sm md:text-xl rounded-lg">Close!</label>
+                                    <label for="my_modal_6"
+                                        class="px-2 md:px-3 py-1 md:py-3 text-white bg-[#F85559] font-bold text-sm md:text-xl rounded-lg">Buy
+                                        Now</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-80 bg-white rounded-lg border-2 border-[#1212121a]">
+                    <figure><img src="./images/fruit8.png" alt="Shoes" class="py-12" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-[#121212] font-bold text-2xl border-b-2 border-b-[#1212121a] pb-5">
+                            12.90$ - 18.85$</h2>
+                        <p class="text-center font-medium text-base text-second">Red Dragon</p>
+                        <div class="rating rating-lg rating-half py-3">
+                            <input type="radio" name="rating-10-44" class="rating-hidden" />
+                            <input type="radio" name="rating-10-45" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-46" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-47" class="bg-third mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10-48" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-49" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-50" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-51" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-52" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-53" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-54" class="bg-third mask mask-star-2 mask-half-2" />
+                        </div>
+
+                        <label for="my_modal_6" class="text-third text-lg font-bold text-center pt-2">Details</label>
+                        <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+                        <div class="modal">
+                            <div class="modal-box">
+                                <div class="card w-full bg-white rounded-lg">
+                                    <figure><img src="./images/fruit8.png" alt="Shoes" class="py-12" /></figure>
+                                    <div class="card-body">
+                                        <h2 class="text-center text-[#121212] font-bold text-2xl pb-5">
+                                            Red Dragon</h2>
+                                        <p class="text-center font-medium text-base text-second">Professional employees
+                                            are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating rating-lg rating-half py-3 justify-center">
+                                            <input type="radio" name="rating-10-55" class="rating-hidden" />
+                                            <input type="radio" name="rating-10-56"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-57"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-58"
+                                                class="bg-third mask mask-star-2 mask-half-1" checked />
+                                            <input type="radio" name="rating-10-59"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-60"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-61"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-62"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-63"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-64"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-65"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <label for="my_modal_6"
+                                        class="border-2 border-[#f85559] px-2 md:px-3 py-1 md:py-3 text-[#F85559] font-bold text-sm md:text-xl rounded-lg">Close!</label>
+                                    <label for="my_modal_6"
+                                        class="px-2 md:px-3 py-1 md:py-3 text-white bg-[#F85559] font-bold text-sm md:text-xl rounded-lg">Buy
+                                        Now</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-80 bg-white rounded-lg border-2 border-[#1212121a]">
+                    <figure><img src="./images/fruit9.png" alt="Shoes" class="py-12" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center text-[#121212] font-bold text-2xl border-b-2 border-b-[#1212121a] pb-5">
+                            12.90$ - 18.85$</h2>
+                        <p class="text-center font-medium text-base text-second">Banana</p>
+                        <div class="rating rating-lg rating-half py-3">
+                            <input type="radio" name="rating-10-66" class="rating-hidden" />
+                            <input type="radio" name="rating-10-67" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-68" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-69" class="bg-third mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10-70" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-71" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-72" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-73" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-74" class="bg-third mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10-75" class="bg-third mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10-76" class="bg-third mask mask-star-2 mask-half-2" />
+                        </div>
+
+                        <label for="my_modal_6" class="text-third text-lg font-bold text-center pt-2">Details</label>
+                        <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+                        <div class="modal">
+                            <div class="modal-box">
+                                <div class="card w-full bg-white rounded-lg">
+                                    <figure><img src="./images/fruit9.png" alt="Shoes" class="py-12" /></figure>
+                                    <div class="card-body">
+                                        <h2 class="text-center text-[#121212] font-bold text-2xl pb-5">
+                                            Banana</h2>
+                                        <p class="text-center font-medium text-base text-second">Professional employees
+                                            are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating rating-lg rating-half py-3 justify-center">
+                                            <input type="radio" name="rating-10-77" class="rating-hidden" />
+                                            <input type="radio" name="rating-10-78"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-79"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-80"
+                                                class="bg-third mask mask-star-2 mask-half-1" checked />
+                                            <input type="radio" name="rating-10-81"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-82"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-83"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-84"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-85"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                            <input type="radio" name="rating-10-86"
+                                                class="bg-third mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10-87"
+                                                class="bg-third mask mask-star-2 mask-half-2" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <label for="my_modal_6"
+                                        class="border-2 border-[#f85559] px-2 md:px-3 py-1 md:py-3 text-[#F85559] font-bold text-sm md:text-xl rounded-lg">Close!</label>
+                                    <label for="my_modal_6"
+                                        class="px-2 md:px-3 py-1 md:py-3 text-white bg-[#F85559] font-bold text-sm md:text-xl rounded-lg">Buy
+                                        Now</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class=" text-center mt-12">
+                <button class="bg-third text-white px-7 py-5 rounded-lg">Shop All</button>
             </div>
         </section>
     </main>
